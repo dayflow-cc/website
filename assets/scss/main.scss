@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @import 'fonts';
+
+  body {
+    @apply antialiased text-zinc-300 bg-zinc-950;
+  }
+}
