@@ -1,6 +1,8 @@
 name: CI/CD
 on:
   push:
+    tags:
+      - 'v[0-9]+(\.[0-9]+)*([-\.]\S+)?'
     branches:
       - main
   pull_request:
