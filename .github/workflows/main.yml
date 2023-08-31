@@ -20,6 +20,6 @@ jobs:
       - name: Build static site
         env:
           GTM_ID: ${{ secrets.GTM_ID }}
-        run: yarn install && yarn build
+        run: yarn install && yarn build --prerender
       - name: Deploy static site to S3 bucket
         run: aws s3 sync ./dist/ s3://www.dayflow.cc --delete
