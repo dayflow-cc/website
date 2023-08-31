@@ -17,5 +17,8 @@
     "eslint-plugin-vue": "^9.17.0",
     "nuxt": "^3.6.5",
     "sass": "^1.64.1"
+  },
+  "dependencies": {
+    "@zadigetvoltaire/nuxt-gtm": "^0.0.13"
   }
 }

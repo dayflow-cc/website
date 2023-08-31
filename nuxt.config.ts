@@ -1,6 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
+  gtm: {
+    id: process.env.GTM_ID,
+  },
   head: {
     meta: [
       {
@@ -21,6 +24,7 @@ export default defineNuxtConfig({
   },
   modules: [
     '@vueuse/nuxt',
+    '@zadigetvoltaire/nuxt-gtm',
     '@nuxtjs/tailwindcss'
   ],
 })
