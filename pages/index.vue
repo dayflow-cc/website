@@ -53,6 +53,7 @@ useSeoMeta({
                   id="mce-EMAIL"
                   class="bg-zinc-800 border border-zinc-700 focus:border-pink-500 focus:ring-1 focus:ring-pink-500 focus:outline-none rounded-md py-2 px-4 block w-full lg:w-1/2 appearance-none leading-normal"
                   name="EMAIL"
+                  placeholder="Your email address"
                   required
                   type="email"
                   value=""
