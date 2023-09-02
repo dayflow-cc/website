@@ -3,7 +3,12 @@
 useSeoMeta({
   title: 'dayflow - Productivity Redefined',
   description: 'Empower your time management with dayflow: a productivity tool blending calendar with time buckets for optimal organization and seamless efficiency.',
-  url: 'https://dayflow.cc',
+  url: 'https://www.dayflow.cc',
+  ogTitle: 'dayflow - Productivity Redefined',
+  ogDescription: 'Empower your time management with dayflow: a productivity tool blending calendar with time buckets for optimal organization and seamless efficiency.',
+  ogImage: 'https://www.dayflow.cc/images/og_image.jpg',
+  twitterCard: 'summary_large_image',
+  twitterImage: 'https://www.dayflow.cc/images/og_image.jpg',
 })
 
 </script>
